@@ -7,6 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <fragment
+        android:tag="firstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        class="kr.co.tjoeun.fragment_20200709.Fragments.FirstFragment" />
+
+    <fragment
+        android:tag="secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        class="kr.co.tjoeun.fragment_20200709.Fragments.SecondFragment" />
 
 
 </LinearLayout>

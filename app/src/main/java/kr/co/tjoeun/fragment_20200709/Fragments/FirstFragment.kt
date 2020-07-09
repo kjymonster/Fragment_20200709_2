@@ -23,7 +23,7 @@ class FirstFragment : Fragment() {
 
         changeMessageBtn.setOnClickListener {
 
-            welcomeMessageTxt.text = "버튼 실행이 잘 되었습니다."
+            welcomeMessageTxt.text = "버튼1이 실행이 잘 되었습니다."
         }
     }
 
